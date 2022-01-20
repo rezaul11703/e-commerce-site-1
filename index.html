@@ -13,7 +13,7 @@
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="">
@@ -26,23 +26,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shoe</a>
+                            <a class="nav-link active" aria-current="page" href="#Shoes">Shoe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                            <a class="nav-link active" aria-current="page" href="#bg">Bags</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                            <a class="nav-link active" aria-current="page" href="#Ss">Subscribe</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Image slider -->
-        <section class="container">
+        <section class="container" id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item  p-5 active">
@@ -137,7 +137,7 @@
             </div>
         </section>
         <!-- products start -->
-        <section class="container my-5">
+        <section class="container my-5" id="Shoes">
             <h2> Shoes</h2>
             <div class="row card-group">
                 <div class="col-lg-4">
@@ -180,7 +180,7 @@
             </div>
         </section>
         <!-- Bags -->
-        <section class="container my-5">
+        <section class="container my-5" id="bg">
             <h2> Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -237,10 +237,22 @@
             </div>
         </section>
         <!-- prducts section end -->
-
+        <section style="height:200px;" class="cotainer d-flex justify-content-center align-items-center bg-primary my-5"
+            id="Ss">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more </p>
+                <input type="text" placeholder=" Your text">
+                <br>
+                <button class="btn btn-warning"> SUBMIT</button>
+            </div>
+        </section>
     </main>
     <!-- footer start  -->
-    <footer>
+    <footer class="mt-5 text-center">
+        <p><small>
+                ©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+            </small></p>
 
     </footer>
     <!-- Bootstrap Script  -->
