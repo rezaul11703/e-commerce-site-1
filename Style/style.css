@@ -1,0 +1,36 @@
+.carsoule-bg{
+    background-color: #fceae8;
+}
+.carsolue-btn{
+    background-image:linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.categories img {
+    height: 100px;
+}
+ .categories h2{
+    font-size: 2.5rem;
+ }
+ .categories-watch{
+     background-color:#ffa500  ;
+ }
+ .categories-bag{
+     background-color:#da70d6 ;
+ }
+ .categories-shoes{
+     background-color:#0000ff ;
+ }
+
+ .shop-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+ }
